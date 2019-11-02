@@ -2,7 +2,7 @@
 
 Just forked to update it to .NET Standard 2.0 !
 
-##Original text##
+## Original text##
 
 Extending the awesome of [Neo4jClient](https://github.com/Readify/Neo4jClient)
 
@@ -19,7 +19,7 @@ Reduces mistakes and simplifies composition of queries. As well as some more adv
 
 Any object can be provided to these methods. 
 
-##Fluent Config Setup##
+## Fluent Config Setup##
 
 To allow unobtrusive usage the extension library with domain model projects which don't want a reference to Neo4j, a fluent config interface has been included to construct the model. Given a domain model like below:
 
@@ -52,7 +52,7 @@ A relationship might be setup like this:
 
 The address entity undergoes a similar setup - see the [unit tests](https://github.com/simonpinn/Neo4jClient.Extension/blob/master/test/Neo4jClient.Extension.Test.Common/Neo/NeoConfig.cs) for the complete setup.
 
-##Fluent Config Usage##
+## Fluent Config Usage##
 Now that our model is configured, creating a weapon is as simple as:
 
 		var weapon = SampleDataFactory.GetWellKnownWeapon(1);
