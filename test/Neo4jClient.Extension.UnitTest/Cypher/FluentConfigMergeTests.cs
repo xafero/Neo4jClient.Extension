@@ -51,7 +51,7 @@ ON CREATE SET person = {
   title: null,
   dateCreated: ""2015-07-11T08:00:00+10:00"",
   id: 7
-}", text);
+}", text.CorrectLineBreak());
         }
         
         public ICypherFluentQuery OneDeepAct()
@@ -100,7 +100,7 @@ MERGE (person)-[personaddress:HOME_ADDRESS]->(address)
 ON MATCH SET personaddress.dateEffective = ""2011-01-10T08:00:00+03:00""
 ON CREATE SET personaddress = {
   dateEffective: ""2011-01-10T08:00:00+03:00""
-}", text);
+}", text.CorrectLineBreak());
         }
 
         
@@ -162,7 +162,7 @@ ON MATCH SET workAddress.street = ""59 Isis Street""
 ON CREATE SET workAddress = {
   suburb: ""Fakeville"",
   street: ""59 Isis Street""
-}", text);
+}", text.CorrectLineBreak());
 
         }
 
