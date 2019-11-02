@@ -1,5 +1,9 @@
 # Neo4jClient.Extension #
 
+Just forked to update it to .NET Standard 2.0 !
+
+##Original text##
+
 Extending the awesome of [Neo4jClient](https://github.com/Readify/Neo4jClient)
 
 ![Version](https://img.shields.io/nuget/v/Neo4jClient.Extension.svg)
